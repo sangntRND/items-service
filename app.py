@@ -2,6 +2,9 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
+# Hardcoded secret for Trivy to detect
+API_KEY = "12345-ABCDE-SECRET-KEY"
+
 # In-memory data storage
 data = []
 
