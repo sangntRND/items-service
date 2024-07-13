@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # Hardcoded AWS secret for Trivy to detect
 AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
-AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKE"
 
 # In-memory data storage
 data = []
