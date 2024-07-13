@@ -2,8 +2,9 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# Hardcoded secret for Trivy to detect
-API_KEY = "12345-ABCDE-SECRET-KEY"
+# Hardcoded AWS secret for Trivy to detect
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 # In-memory data storage
 data = []
