@@ -3,7 +3,7 @@
 // Demo CI
 // Version: v1.x
 //========================================================================
-@Library('jenkins-devops-ci@pisharped') _
+@Library('jenkins-devops-ci@main') _
 pythonPipeline script: this
 //========================================================================
 // DO NOT MODIFY AFTER THESE LINES.
