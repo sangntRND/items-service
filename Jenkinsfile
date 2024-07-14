@@ -4,7 +4,7 @@
 // Version: v1.x
 //========================================================================
 @Library('jenkins-devops-ci@main') _
-pythonPipeline script: this
+projecttemplatePython1Api script: this
 //========================================================================
 // DO NOT MODIFY AFTER THESE LINES.
 //=========================================================================
